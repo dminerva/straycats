@@ -20,7 +20,7 @@
                             <img src="cuddleheadlogo.jpg" alt="cuddlehead">
                         </a>
                     </div>
-                    <p>Cuddlehead</p>
+                    <a href="https://www.youtube.com/user/cuddlehead1">Cuddlehead</a>
                 </div>
                 <div class="col-sm-4">
                     <div class="thumbnail">
@@ -28,7 +28,7 @@
                             <img src="acedilogo.jpeg" alt="acedi">
                         </a>
                     </div>
-                    <p>Acedi</p>
+                    <a href="https://www.youtube.com/channel/UCYFrE0lgjW-HgnsakbYRdKw">Acedi</a>
                 </div>
                 <div class="col-sm-4">
                     <div class="thumbnail">
@@ -36,7 +36,7 @@
                             <img src="error404logo.jpeg" alt="error404">
                         </a>
                     </div>
-                    <p>Error404</p>
+                    <a href="https://www.youtube.com/channel/UCWRpUu9B_EDAvGM_PYzpUsA">Error404</a>
                 </div>
             </div>
             <div class="row">
@@ -46,7 +46,7 @@
                             <img src="blazlogo.jpeg" alt="blaz">
                         </a>
                     </div>
-                    <p>Blaz</p>
+                    <a href="https://www.youtube.com/channel/UCkiVQvU01dB9I_A7N-F6UdQ">Blaz</a>
                 </div>   
                 <div class="col-sm-4">
                     <div class="thumbnail">
@@ -54,7 +54,7 @@
                             <img src="surralogo.jpeg" alt="surra">
                         </a>
                     </div>
-                    <p>Surra</p>
+                    <a href="https://www.youtube.com/user/Victorpg33/videos">Surra</a>
                 </div>              
             </div>
         </div>

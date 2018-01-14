@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="footer_div">
-        <p class="footer_text">&copy; Stray Cats 2015</p>
+        <p class="footer_text">&copy; Stray Cats 2016</p>
     </div>    
 </body>
 </html>
