@@ -13,6 +13,7 @@
     <?php include 'nav.php'; ?>
     <div class="container">
         <div class="content">
+            <h1>Youtubers</h1>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="thumbnail">

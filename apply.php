@@ -15,17 +15,17 @@
         <form action="">
             <div class="form-group">
                 <p>Email address</p>
-                <input type="email" class="form-control" id="email" required>
+                <input type="email" class="form-control" id="email" style="width: 50%;" required>
             </div>
             <br>
             <div class="form-group">
                 <p>Link to your steam profile</p>
-                <input type="url" class="form-control" id="steamprofile" required>
+                <input type="url" class="form-control" id="steamprofile" style="width: 50%;" required>
             </div>
             <br>
             <div class="form-group">
                 <p>Age</p>
-                <input type="number" class="form-control" id="age" min="1" max="99" required>
+                <input type="number" class="form-control" id="age" min="1" max="99" style="width: 10%;" required>
             </div>
             <br>
             <div class="form-group">
@@ -40,7 +40,7 @@
             <br>
             <div class="form-group">
                 <p>How many hours do you have played on steam?</p>
-                <input type="number" class="form-control" id="hours" min="0" required>
+                <input type="number" class="form-control" id="hours" min="0" style="width: 15%;" required>
             </div>
             <br>
             <div class="form-group">

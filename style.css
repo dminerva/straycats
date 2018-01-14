@@ -5,6 +5,7 @@ body {
 
 .jumbotron {
     background-color: black;
+    padding: 5px;
     margin-bottom: 0;
 }
 
@@ -21,10 +22,10 @@ body {
     bottom: 0;
     width: 100%;
     padding-top: 10px;
+    text-align: center;
 }
 
 .footer_text {
-   text-align: center; 
    color: white;
 }
 
@@ -49,7 +50,7 @@ ul {
 }
 
 .content {
-    padding-top: 300px;
+    padding-top: 200px;
     padding-bottom: 10%;
     display: inline-block;
     text-align: left;
@@ -60,5 +61,20 @@ ul {
 }
 
 .row {
+    
     padding-bottom: 25px;
+}
+
+.col-sm-4 {
+    background-color: black;
+    padding: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
 }
