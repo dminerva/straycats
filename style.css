@@ -1,0 +1,60 @@
+body {
+    background-image: url(background.jpg);
+    font-family: 'Racing Sans One';font-size: 22px;
+}
+
+.jumbotron {
+    background-color: black;
+    margin-bottom: 0;
+}
+
+.jumbotron img {
+    height: auto;
+    width: 10%;
+    display: block;
+    margin: auto;
+}
+
+.footer_div {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.footer_text {
+   text-align: center; 
+   color: white;
+}
+
+p {
+    color: white;
+}
+
+a {
+    color: crimson;
+}
+
+ul {
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+.content {
+    padding-top: 300px;
+    padding-bottom: 5%;
+    display: inline-block;
+    text-align: left;
+}
+
+.thumbnail img {
+    size: 50%;
+}
+
+.row {
+    padding-bottom: 25px;
+}
