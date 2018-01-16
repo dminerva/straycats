@@ -14,7 +14,7 @@
         <div class="content">
         <?php
         $email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
-        $message = filter_var($_POST["message"], FILTER_SANITIZE_EMAIL);
+        $message = filter_var($_POST["message"], FILTER_SANITIZE_STRING);
 
         //PHPMailer
         use PHPMailer\PHPMailer\PHPMailer;
