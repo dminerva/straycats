@@ -15,6 +15,7 @@
                 <li><a href="index.php">Home</a></li>                 
                 <li><a href="videos.php">Videos</a></li>
                 <li><a href="apply.php">Apply</a></li>
+                <li><a href="contact.php">Contact us</a></li>
             <ul>
         </div>
     </nav>
