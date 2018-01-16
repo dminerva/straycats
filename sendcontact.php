@@ -14,12 +14,7 @@
         <div class="content">
         <?php
         $email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
-        $steam = filter_var($_POST["steam"], FILTER_SANITIZE_URL);
-        $age = intval($_POST["age"]);
-        $comms = filter_var($_POST["optradio"], FILTER_SANITIZE_STRING);
-        $hours = intval($_POST["hours"]);
-        $likes = filter_var($_POST["likes"], FILTER_SANITIZE_STRING);
-        $history = filter_var($_POST["history"], FILTER_SANITIZE_STRING);
+        $message = filter_var($_POST["message"], FILTER_SANITIZE_EMAIL);
 
         //PHPMailer
         use PHPMailer\PHPMailer\PHPMailer;
@@ -54,19 +49,14 @@
 
             //Content
             $mail->isHTML(true);
-            $mail->Subject = 'application';
+            $mail->Subject = 'Message';
             $mail->Body = '<b>Email address</b><br>'.$email.'<br><br>'.
-                            '<b>Link to your steam profile</b><br>'.$steam.'<br><br>'.
-                            '<b>Age</b><br>'.$age.'<br><br>'.
-                            '<b>Do you have a mic and can you use discord?</b><br>'.$comms.'<br><br>'.
-                            '<b>How many hours do you have played on steam?</b><br>'.$hours.'<br><br>'.
-                            '<b>What do you like to do in Ark?</b><br>'.$likes.'<br><br>'.
-                            '<b>Describe you history in Ark, including previous tribes you have been with</b><br>'.$history;
+                            '<b>Message</b><br>'.$message;
 
             $mail->send();
-            echo '<h1>Application sent<h1>';
+            echo '<h1>Message sent<h1>';
         } catch(Exception $e) {
-            echo '<h1>Application not sent. Mailer Error: ', $mail->ErrorInfo . '<h1>';
+            echo '<h1>Message not sent. Mailer Error: ', $mail->ErrorInfo . '<h1>';
         }
         ?>
         <p><a href="index.php">Go back</a></p>
