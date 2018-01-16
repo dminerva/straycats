@@ -11,7 +11,7 @@ body {
 
 .jumbotron img {
     height: auto;
-    width: 10%;
+    width: 25%;
     display: block;
     margin: auto;
 }
@@ -50,7 +50,7 @@ ul {
 }
 
 .content {
-    padding-top: 225px;
+    padding-top: 200px;
     padding-bottom: 10%;
     display: inline-block;
     text-align: left;
